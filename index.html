@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: #0a0c1b;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container{
+      background-color: #1c1938;
+      width: 1200px;
+      height: 500px;
+      border-radius: 15px;
+      margin-right: 0px;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    *{
+      font-family: sans-serif;
+    }
+    h1{
+      color: white;
+    }
+    .sub{
+      color: #716f85;
+      font-size: 20px;
+    }
+    .main{
+      padding-top: 60px;
+      padding-left: 80px;
+    }
+    .bgphoto{
+      height: 500px;
+      width: 600px;
+      border-start-end-radius: 15px;
+      border-end-end-radius: 15px;
+    }
+    .img1{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+    h2{
+      color: white;
+    }
+    .subtitle{
+      color: #716f85;
+    }
+    .follows{
+      display: flex;
+      flex-direction: row;
+      padding-top: 60px;
+      padding-left: 80px;
+      padding-right: 680px;
+      justify-content: space-between;
+    }
+    span{
+      color: #a25ecc;
+    }
+    .tone{
+      background-color: #a25ecc8b;
+      width: 600px;
+      height: 500px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      border-start-end-radius: 15px;
+      border-end-end-radius: 15px;
+    }
+      
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <h1>Get <span>insights</span> that help<br> your business grow.
+      </h1>
+      <p class="sub">Discover the benefits of data analytics and make<br> better decisions regarding revenue, customer<br> 
+        experience, and overall efficiency.
+      </p>
+    </div>
+    <div class="img1">
+      <img class="bgphoto" src="./images/image-header-desktop.jpg" alt="photo"
+      >
+    </div>
+    <div class="follows">
+      <div class="first">
+        <h2>10k+</h2>
+        <p class="subtitle">COMPANIES</p>
+      </div>
+      <div class="second">
+        <h2>314</h2>
+        <p class="subtitle">TEMPLATES</p>
+      </div>
+      <div class="third">
+        <h2>12M+</h2>
+        <p class="subtitle">QUIRIES</p>
+      </div>
+    </div>
+    <div class="tone"></div>
+  </div>  
+</body>
+</html>
